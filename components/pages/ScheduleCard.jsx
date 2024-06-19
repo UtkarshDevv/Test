@@ -8,6 +8,15 @@ import durgakund from '../../assets/durgakund.jpg';
 import kalabhavan from '../../assets/kalabhavan.jpg';
 import sankatmochan from '../../assets/sankatmochan.jpg';
 import VTBHU from '../../assets/VTBHU.jpg';
+import Kashi_Vishwanath from '../../assets/Kashi_Vishwanath.jpg';
+import annapurna_mandir from '../../assets/annapurna_mandir.jpg';
+import Manikarnika_ghat from '../../assets/Manikarnika_ghat.jpg';
+import kaal_bhairav_temple from '../../assets/kaal_bhairav_temple.jpg';
+import ganga_aarti from '../../assets/ganga_aarti.jpg';
+import boat_riding from '../../assets/boat_riding.jpg';
+
+
+
 
 // Define arrays of objects containing image src and name
 const imageSet1 = [
@@ -18,16 +27,14 @@ const imageSet1 = [
 ];
 
 const imageSet2 = [
-  { src: anotherImage, name: 'Another Image' },
-  { src: kalabhavan, name: 'Kalabhavan' },
-  { src: sankatmochan, name: 'Sankat Mochan' }
+  { src: Kashi_Vishwanath, name: 'Kashi Vishwanath Mandir' },
+  { src: annapurna_mandir, name: 'Maa Annapurna Mandir' },
+  { src: Manikarnika_ghat, name: 'Manikarnika_ghat'},
+  { src: kaal_bhairav_temple, name: 'Kaal Bhairav Temple'},
+  { src: ganga_aarti , name: 'Ganga Aarti'},
+  { src: boat_riding, name: 'Boat Riding '},
 ];
 
-const imageSet3 = [
-  { src: durgakund, name: 'Durgakund' },
-  { src: anotherImage, name: 'Another Image' },
-  { src: sankatmochan, name: 'Sankat Mochan' }
-];
 
 function ScheduleCard() {
   return (
@@ -80,7 +87,7 @@ function ScheduleCard() {
           <h1>Evening</h1>
           <li><h2>Dinner and Back to HomeStay</h2></li>
         </ul>
-        <ImgCard images={imageSet1} />
+        <ImgCard images={imageSet2} />
       </Schedules>
 
       <Schedules day="Day 3 Ayodhya">
@@ -104,7 +111,7 @@ function ScheduleCard() {
           <h1>Evening</h1>
           <li><h2>Dinner and Back to HomeStay</h2></li>
         </ul>
-        <ImgCard images={imageSet1} />
+        <ImgCard images={imageSet2} />
       </Schedules>
 
       <Schedules day="Day 4 Varanasi">

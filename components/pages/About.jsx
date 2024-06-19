@@ -4,7 +4,7 @@ import "..pages/../CSS/About.css"
 function About() {
   return (
     <div className='about'>
-    <h1>snjdhhhhhHHDHDHUHDUHDUHEHUFSKDJSCNJNCKJCJSJNCCKJSNCKJSNSCKJSCSNCKJSNCKJN</h1>
+    <h1>snjdhhhhhHHDHDHUHDUHDUHEHUFS</h1>
     </div>
   )
 }

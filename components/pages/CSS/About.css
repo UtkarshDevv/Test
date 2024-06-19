@@ -1,6 +1,8 @@
 
 .about{
-height: 50rem;
-width: 30rem;
-background-color: aquamarine;
+    margin: auto;
+    object-fit: cover;
+    height: 41rem;
+    width: 75rem;
+    background-color: aquamarine;
 }

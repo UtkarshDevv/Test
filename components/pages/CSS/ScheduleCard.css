@@ -5,10 +5,11 @@
 
 .Schedulecard h1{
     text-align: center;
-    color: black;
+    color: orangered;
     margin-top: 2rem;
 }
 
 .Schedulecard ul li{
+    color: gold;
     list-style: symbols("U+1F4CD");
 }

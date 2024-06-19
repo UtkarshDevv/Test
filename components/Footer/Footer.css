@@ -1,0 +1,15 @@
+.footer{
+    height: 5rem;
+    width: 100%;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+.footer ul{
+ display: flex;
+ justify-content: space-between;
+}
+.footer ul li{
+    list-style: none;
+}

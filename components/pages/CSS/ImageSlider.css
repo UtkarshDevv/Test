@@ -44,5 +44,7 @@
 
 .image-name{
     text-align: center;
-    color: white;
+    color: orangered;
+    font-style: bold;
+    font-size:larger;
 }

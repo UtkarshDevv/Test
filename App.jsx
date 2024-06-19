@@ -3,6 +3,7 @@ import Navebar from './components/Navbar/Navebar'
 import Homepage from './components/pages/Homepage'
 import ScheduleCard from './components/pages/ScheduleCard'
 import About from './components/pages/About'
+import Footer from './components/Footer/Footer'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <ScheduleCard>
       </ScheduleCard>
       <About></About>
+      <Footer></Footer>
       </div>
       
     </>

@@ -1,0 +1,9 @@
+.imgcard {
+    height: auto;
+    width: 47rem;
+    background-color: coral;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

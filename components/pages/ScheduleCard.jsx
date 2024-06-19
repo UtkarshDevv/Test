@@ -2,7 +2,6 @@ import React, { Children } from 'react'
 import "..pages/../CSS/ScheduleCard.css"
 import Schedules from './Schedules'
 import ImgCard from './ImgCard'
-import ImageSlider from '../ImagesSlider'
 
 
 import durgakund from '../../assets/durgakund.jpg';

@@ -11,6 +11,8 @@ import Footer from '../Footer/Footer';
 
 const ContactPage = () => {
     return (
+        <>
+        <Homepage/>
       <div className="contact-page">
         <div className="contact-container">
           <h1>Contact Us</h1>
@@ -25,6 +27,8 @@ const ContactPage = () => {
           <ContactForm />
         </div>
       </div>
+      <Footer/>
+      </>
     );
   };
   

@@ -3,13 +3,11 @@ import { Link } from 'react-router-dom';
 import './navbar.css';
 import navBgVideo from '../../assets/nav-bg-img.mp4';
 import SignupForm from '../SignupForm';
-function Navbar() {
+function Navebar() {
   const [username, setUsername] = useState('');
-  const [showSignupForm, setShowSignupForm] = useState(false);
 
   const handleSignup = (username) => {
     setUsername(username);
-    setShowSignupForm(false); // Hide signup form after successful signup
   };
 
   return (
@@ -28,7 +26,7 @@ function Navbar() {
           {username ? (
             <div id='login-btn'>{username.charAt(0).toUpperCase()}</div>
           ) : (
-            <button id='login-btn' onClick={() => setShowSignupForm(true)}>
+            <button id='login-btn' onClick={() => document.querySelector('.signup-form').classList.toggle('show')}>
               Signup
             </button>
           )}
@@ -39,9 +37,9 @@ function Navbar() {
           <source src={navBgVideo} type='video/mp4' />
         </video>
       </div>
-      {showSignupForm && <SignupForm onSignup={handleSignup} onClose={() => setShowSignupForm(false)} />}
+      <SignupForm onSignup={handleSignup} />
     </div>
   );
 }
 
-export default Navbar;
+export default Navebar;

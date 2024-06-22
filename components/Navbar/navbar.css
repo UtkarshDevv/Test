@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body {
-    margin: 100%;
+    margin: 0;
     font-family: 'Lato', sans-serif;
 }
 
@@ -12,7 +12,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.9);
     z-index: 10;
     padding: 1rem;
     color: white;
@@ -35,6 +35,19 @@ body {
     margin: 0 1rem;
     color: white;
     cursor: pointer;
+    font-size: large;
+    list-style: none;
+    font-weight: 500;
+    transition: color 0.3s ease; /* Add smooth transition for color change */
+}
+
+.Nav-items ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.Nav-items ul li:hover {
+    color: orangered; /* Change color to orangered on hover */
 }
 
 .lgn-btn {
@@ -54,13 +67,11 @@ body {
 }
 
 .BackgroundVideo {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    min-width: 100%;
-    min-height: 100%;
     overflow: hidden;
     z-index: -1;
 }
@@ -69,18 +80,19 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.7;
 }
 
+.Hide .Nav-bg-video {
+    display: none;
+  }
 /* Responsive Styles */
 @media (max-width: 768px) {
 
-    body {
-        margin: 100%;
-        width: fit-content;
-        font-family: 'Lato', sans-serif;
+
+    body{
+    width: fit-content;
     }
-    
+
     .Nav {
         flex-direction: column;
         padding: 0.5rem;
@@ -90,6 +102,11 @@ body {
         margin-left: 0;
         margin-bottom: 0.5rem;
         font-size: 1.5rem;
+    }
+
+    .Nav-bg-video {
+        position: relative;
+        width: 84rem;
     }
 
     .Nav-items ul {
@@ -106,13 +123,6 @@ body {
         height: 2.5rem;
         margin-right: 0;
     }
-
-    .Nav-bg-video {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        }
-    
 }
 
 @media (max-width: 480px) {

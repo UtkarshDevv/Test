@@ -1,0 +1,22 @@
+.Schedulecard{
+    
+    margin-top: 12rem;
+}
+
+.Schedulecard h1{
+    text-align: center;
+    color: orangered;
+    margin-top: 2rem;
+}
+
+.Schedulecard ul li{
+    color: black;
+    list-style: symbols("U+1F4CD");
+}
+
+
+@media (max-width: 768px) {
+.Schedulecard{
+    margin-top: 10rem;
+}
+}

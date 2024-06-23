@@ -1,0 +1,10 @@
+.schedules{
+    height: auto;
+    width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin-bottom: 2.2rem;
+    background-color: azure;
+}

@@ -1,7 +1,7 @@
 {
   "name": "Bhumi-Homestay",
   "scripts": {
-    "dev": "npm run dev" // Replace with your actual dev command
+    "dev": "npm run dev"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.4"

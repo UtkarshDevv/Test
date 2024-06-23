@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
    build: {
     rollupOptions: {
-      external: ['/src/main.jsx'], // Add any other modules or files here
+      external: ['/src/app.jsx'], // Add any other modules or files here
     },
   },
 server: {

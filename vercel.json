@@ -1,5 +1,10 @@
 {
   "routes": [
     { "src": "/(.*)", "dest": "/index.html" }
-  ]
+  ],
+   "build": {
+    "env": {
+      "GIT_SUBMODULE_STRATEGY": "recursive"
+    }
+  }
 }

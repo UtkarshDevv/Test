@@ -8,6 +8,7 @@
       }
     }
   ],
+  "buildCommand": "git submodule update --init --recursive && npm run build",
   "routes": [
     {
       "src": "/(.*)",

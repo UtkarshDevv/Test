@@ -1,13 +1,9 @@
 {
   "routes": [
     {
-      "src": "/",
+      "src": "/main.jsx",
       "dest":"/"
     },
-    {
-      "src":"/contact",
-      "element":"{<Contact>}"
-    }
   ],
    "build": {
     "env": {

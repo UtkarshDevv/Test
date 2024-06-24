@@ -10,6 +10,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
    
       <BrowserRouter>
       <App />
+        <h1>In a main jsx</h1>
       </BrowserRouter>
         
       

@@ -7,7 +7,7 @@ export default defineConfig({
    build: {
      outDir: 'dist',
     rollupOptions: {
-      external: ['/src/main.jsx'], // Add any other modules or files here
+      external: ['/src/main.jsx','/src/index.html','/src/App.jsx','/src/App.css','/src/index.css,], // Add any other modules or files here
     },
   },
 server: {

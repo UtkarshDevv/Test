@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import App from './App'
 import './index.css'
 import './index.html'
 import { BrowserRouter} from 'react-router-dom'
@@ -10,7 +10,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
    
       <BrowserRouter>
       <App />
-        <h1>In a main jsx</h1>
       </BrowserRouter>
         
       

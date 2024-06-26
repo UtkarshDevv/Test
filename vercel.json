@@ -8,7 +8,7 @@
       }
     }
   ],
-  "buildCommand": "git submodule update --init --recursive && npm run build",
+  "buildCommand": "git submodule update --force --recursive --init --remote",
   "routes": [
     {
       "src": "/(.*)",
